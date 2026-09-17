@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinetiqa Consulting | Enterprise Strategy & Operations Transformation</title>
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --text: #334155;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 1.5rem 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 { margin: 0; font-size: 1.4rem; letter-spacing: 1px; }
+    nav a { color: #cbd5e1; margin-left: 1.5rem; text-decoration: none; font-weight: 500; font-size: 0.95rem; }
+    nav a:hover { color: #fff; }
+
+    .hero {
+      padding: 5rem 10%;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero h2 { font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem; max-width: 850px; line-height: 1.2; }
+    .hero p { font-size: 1.2rem; color: #475569; max-width: 750px; margin-bottom: 2rem; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.8rem 1.8rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+    .btn:hover { background: var(--accent-hover); }
+
+    .section { padding: 4rem 10%; }
+    .section-title { font-size: 1.8rem; color: var(--primary); margin-bottom: 2rem; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .card {
+      background: var(--card-bg);
+      padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .card h3 { color: var(--primary); margin-top: 0; font-size: 1.2rem; }
+
+    footer {
+      background: var(--primary);
+      color: #94a3b8;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KINETIQA CONSULTING</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#impact">Impact</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Enterprise Strategy & Operations Transformation</h2>
+    <p>Solving complex operational challenges through process redesign, vendor evaluation, strategy execution, and intelligent automation.</p>
+    <a href="#contact" class="btn">Schedule an Operational Audit</a>
+  </section>
+
+  <section class="section" id="services">
+    <h2 class="section-title">Core Advisory Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Operational Diagnostics</h3>
+        <p>Identifying hidden process bottlenecks, workflow inefficiencies, and service-delivery leakage to build prioritized execution roadmaps.</p>
+      </div>
+      <div class="card">
+        <h3>Vendor & Tech Evaluation</h3>
+        <p>Unbiased build-vs-buy modeling and platform scoring to stop software overspending and optimize core enterprise stacks.</p>
+      </div>
+      <div class="card">
+        <h3>Intelligent Automation</h3>
+        <p>Replacing manual data entry, OCR/order exceptions, and routine operations with clean, scalable automated workflows.</p>
+      </div>
+      <div class="card">
+        <h3>Pipeline Operations</h3>
+        <p>Designing CRM architectures, lead-management workflows, and SLA frameworks that accelerate deal velocity and retention.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#fff; border-top:1px solid var(--border); border-bottom:1px solid var(--border);" id="impact">
+    <h2 class="section-title">Proven Strategic Outcomes</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>$492K Cost Reduction Case</h3>
+        <p>Directed full platform evaluations across 8 enterprise vendors for 1,000+ client systems to restructure long-term software costs.</p>
+      </div>
+      <div class="card">
+        <h3>In-House Order Automation</h3>
+        <p>Architected custom OCR/LLM extraction workflows replacing vendor dependency and reducing order costs from $1.75 to ~$0.45/order.</p>
+      </div>
+      <div class="card">
+        <h3>SLA Acceleration</h3>
+        <p>Re-engineered operations and inquiry routing workflows, slashing first-response times from 6 hours to under 90 minutes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2 class="section-title">About the Practice</h2>
+    <p style="max-width: 800px; font-size: 1.1rem; color: #475569;">
+      Led by <strong>Resha Singh</strong>, Kinetiqa Consulting delivers executive-level business transformation, process design, and technological optimization to mid-market companies in Sioux Falls and across North America. We help growing business leaders translate executive priorities into clear, ROI-quantified roadmaps.
+    </p>
+  </section>
+
+  <section class="section" style="background:#f1f5f9; text-align:center;" id="contact">
+    <h2 class="section-title">Ready to Eliminate Operational Drag?</h2>
+    <p style="max-width: 600px; margin: 0 auto 1.5rem auto;">Book a 30-minute consultation to evaluate your process, tech stack, or operational strategy.</p>
+    <a href="mailto:reshaanyaa@gmail.com" class="btn">Connect With Kinetiqa</a>
+  </section>
+
+  <footer>
+    <p>© Kinetiqa Consulting • Sioux Falls, SD • All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
